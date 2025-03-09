@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "svg": "vite-node src/main.satori.tsx",
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite-node src/main.satori.tsx",
+    "lint": "eslint . && biome check src/"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",

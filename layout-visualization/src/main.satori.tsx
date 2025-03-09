@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
+import App from "@/App";
 import satori from "satori";
-import App from "./App";
 
 const interFontPath = path.join(
   import.meta.dirname,
