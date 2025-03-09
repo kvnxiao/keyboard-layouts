@@ -1,6 +1,8 @@
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
+
+  Line height modified to 1.2 to match satori output more closely.
 */
 *,
 *::before,
@@ -11,7 +13,7 @@
   margin: 0;
 }
 body {
-  line-height: 1.5;
+  line-height: 1.2;
   -webkit-font-smoothing: antialiased;
 }
 img,

@@ -13,6 +13,7 @@ const interFontPath = path.join(
 const svg = await satori(<App />, {
   width: 600,
   height: 400,
+  embedFont: true,
   fonts: [
     {
       name: "Inter",
