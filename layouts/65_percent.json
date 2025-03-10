@@ -1,0 +1,24 @@
+{
+	"name": "65% Layout",
+	"rows": [
+		{
+			"type": "keys",
+			"keys": [
+				{ "label": { "top": "~", "bottom": "`" } },
+				{ "label": { "top": "!", "bottom": "1" } },
+				{ "label": { "top": "@", "bottom": "2" } },
+				{ "label": { "top": "#", "bottom": "3" } },
+				{ "label": { "top": "$", "bottom": "4" } },
+				{ "label": { "top": "%", "bottom": "5" } },
+				{ "label": { "top": "^", "bottom": "6" } },
+				{ "label": { "top": "&", "bottom": "7" } },
+				{ "label": { "top": "*", "bottom": "8" } },
+				{ "label": { "top": "(", "bottom": "9" } },
+				{ "label": { "top": ")", "bottom": "0" } },
+				{ "label": { "top": "_", "bottom": "-" } },
+				{ "label": { "top": "=", "bottom": "+" } },
+				{ "label": { "top": "|", "bottom": "\\" } }
+			]
+		}
+	]
+}
