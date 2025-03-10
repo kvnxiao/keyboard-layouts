@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite-node src/main.satori.tsx",
-    "lint": "eslint . && biome check ./"
+    "lint": "eslint . && biome check ./",
+    "fix": "eslint . --fix && biome check ./ --write"
   },
   "dependencies": {
     "@hono/react-renderer": "^0.3.0",

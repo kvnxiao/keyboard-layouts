@@ -23,13 +23,15 @@ app.get("/", async (c) => {
   const layouts = await renderKeyboardLayouts();
   return c.render(
     <StrictMode>
-      {layouts.map((layout) => (
-        <div
-          key={layout.fileName}
-          // biome-ignore lint/security/noDangerouslySetInnerHtml: Satori generates an SVG string
-          dangerouslySetInnerHTML={{ __html: layout.svgString }}
-        />
-      ))}
+      {layouts.map((layout) =>
+        layout.svgLayers.map((svgLayer) => (
+          <div
+            key={layout.fileName}
+            // biome-ignore lint/security/noDangerouslySetInnerHtml: Satori generates an SVG string
+            dangerouslySetInnerHTML={{ __html: svgLayer }}
+          />
+        )),
+      )}
     </StrictMode>,
   );
 });

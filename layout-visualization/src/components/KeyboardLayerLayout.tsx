@@ -1,11 +1,13 @@
 import { Key } from "@/components/Key";
-import type { KeyboardLayoutType } from "@/schemas/keyboardLayout";
+import type { LayerSchemaType } from "@/schemas/keyboardLayout";
 
-interface KeyboardLayoutProps {
-  layout: KeyboardLayoutType;
+interface KeyboardLayerLayoutProps {
+  layer: LayerSchemaType;
 }
 
-export const KeyboardLayout: React.FC<KeyboardLayoutProps> = ({ layout }) => {
+export const KeyboardLayerLayout: React.FC<KeyboardLayerLayoutProps> = ({
+  layer,
+}) => {
   return (
     <div
       style={{
@@ -15,7 +17,7 @@ export const KeyboardLayout: React.FC<KeyboardLayoutProps> = ({ layout }) => {
         fontWeight: 700,
       }}
     >
-      {layout.rows.map((row, rowIndex) => (
+      {layer.rows.map((row, rowIndex) => (
         <div
           key={String(rowIndex)}
           style={{ display: "flex", flexDirection: "row" }}

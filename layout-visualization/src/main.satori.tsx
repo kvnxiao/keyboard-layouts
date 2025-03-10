@@ -5,9 +5,18 @@ import { renderKeyboardLayouts } from "@/renderKeyboardLayouts";
 
 const layouts = await renderKeyboardLayouts();
 
+function stripExtension(fileName: string) {
+  return fileName.replace(/\.[^.]+$/, "");
+}
+
 for (const layout of layouts) {
-  fs.writeFileSync(
-    path.join(rootLayoutsDir, `${layout.fileName}.svg`),
-    layout.svgString,
-  );
+  for (const [index, svgLayer] of layout.svgLayers.entries()) {
+    fs.writeFileSync(
+      path.join(
+        rootLayoutsDir,
+        `${stripExtension(layout.fileName)}-layer${index}.svg`,
+      ),
+      svgLayer,
+    );
+  }
 }
