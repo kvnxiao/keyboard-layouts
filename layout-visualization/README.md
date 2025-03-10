@@ -1,54 +1,23 @@
-# React + TypeScript + Vite
+# layout-visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The layout visualization engine of this repository uses React in an SSR / Node script
+context to generate `.svg` files of keyboard layouts.
 
-Currently, two official plugins are available:
+Layouts are expected to be defined in the root `layouts` folder, and the layout
+visualization engine simply parses all valid layout JSON files and outputs SVG files of
+each layer into the same folder.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage and development
 
-## Expanding the ESLint configuration
+[satori](https://github.com/vercel/satori) is an HTML-&-CSS-to-SVG conversion library
+which allows us to directly export a keyboard's layout represented via simple, stateless
+React components into individual SVG files.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+For generating layout SVG files, run `pnpm build`, which will output `.svg` files into
+the root `layouts` folder.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+For developing the layout UI and individual components, a simple [hono](https://github.com/honojs/hono)
+server is used to serve a React SSR development server via [Vite](https://vite.dev/).
+The dev server will first prerender the SVG output for serving via satori, rather than
+simply rendering the React components into HTML DOM elements. This ensures that the
+visual output between the dev server and generated SVG files will be the same.
