@@ -1,0 +1,397 @@
+{
+  "name": "65% Layout",
+  "layers": [
+    {
+      "rows": [
+        {
+          "type": "keys",
+          "keys": [
+            { "label": { "top": "~", "bottom": "`" } },
+            { "label": { "top": "!", "bottom": "1" } },
+            { "label": { "top": "@", "bottom": "2" } },
+            { "label": { "top": "#", "bottom": "3" } },
+            { "label": { "top": "$", "bottom": "4" } },
+            { "label": { "top": "%", "bottom": "5" } },
+            { "label": { "top": "^", "bottom": "6" } },
+            { "label": { "top": "&", "bottom": "7" } },
+            { "label": { "top": "*", "bottom": "8" } },
+            { "label": { "top": "(", "bottom": "9" } },
+            { "label": { "top": ")", "bottom": "0" } },
+            { "label": { "top": "_", "bottom": "-" } },
+            { "label": { "top": "=", "bottom": "+" } },
+            { "label": { "top": "|", "bottom": "\\" } },
+            { "label": "Print" },
+            { "label": "Esc" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "Tab", "units": 1.5 },
+            { "label": "Q" },
+            { "label": "W" },
+            { "label": "E" },
+            { "label": "R" },
+            { "label": "T" },
+            { "label": "Y" },
+            { "label": "U" },
+            { "label": "I" },
+            { "label": "O" },
+            { "label": "P" },
+            { "label": { "top": "{", "bottom": "[" } },
+            { "label": { "top": "}", "bottom": "]" } },
+            { "label": "← Bksp", "units": 1.5 },
+            { "label": "Del" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Ctrl", "units": 1.75 },
+            { "label": "A" },
+            { "label": "S" },
+            { "label": "D" },
+            { "label": "F" },
+            { "label": "G" },
+            { "label": "H" },
+            { "label": "J" },
+            { "label": "K" },
+            { "label": "L" },
+            { "label": { "top": ":", "bottom": ";" } },
+            { "label": { "top": "\"", "bottom": "'" } },
+            { "label": "Enter", "units": 2.25 },
+            { "label": "PgUp" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Shift", "units": 2.25 },
+            { "label": "Z" },
+            { "label": "X" },
+            { "label": "C" },
+            { "label": "V" },
+            { "label": "B" },
+            { "label": "N" },
+            { "label": "M" },
+            { "label": { "top": "<", "bottom": "," } },
+            { "label": { "top": ">", "bottom": "." } },
+            { "label": { "top": "?", "bottom": "/" } },
+            { "label": "R-Shift", "units": 1.75 },
+            { "label": "↑" },
+            { "label": "PgDn" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Ctrl", "units": 1.25 },
+            { "label": "L-Alt", "units": 1.25 },
+            { "label": { "top": "MO(1)", "bottom": "Fn" }, "units": 1.25 },
+            { "label": "Space", "units": 6.25 },
+            { "label": "R-Alt", "units": 1.25 },
+            { "label": "R-Win", "units": 1.25 },
+            { "units": 0.5 },
+            { "label": "←" },
+            { "label": "↓" },
+            { "label": "→" }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "Esc" },
+            { "label": "F1" },
+            { "label": "F2" },
+            { "label": "F3" },
+            { "label": "F4" },
+            { "label": "F5" },
+            { "label": "F6" },
+            { "label": "F7" },
+            { "label": "F8" },
+            { "label": "F9" },
+            { "label": "F10" },
+            { "label": "F11" },
+            { "label": "F12" },
+            { "label": "F13" },
+            { "label": "F14" },
+            { "label": { "top": "M0", "bottom": "Alt+F4" } }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": { "top": "M6", "bottom": "Win+Tab" }, "units": 1.5 },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "PgUp" },
+            { "label": "↑" },
+            { "label": "PgDn" },
+            { "label": "Print" },
+            { "label": "(" },
+            { "label": ")" },
+            { "label": "Del", "units": 1.5 },
+            { "label": "" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 1.75 },
+            { "label": { "top": "M7", "bottom": "Ctrl+A" } },
+            { "label": "" },
+            { "label": "" },
+            { "label": { "top": "M5", "bottom": "Ctrl+F" } },
+            { "label": "" },
+            { "label": "Home" },
+            { "label": "←" },
+            { "label": "↓" },
+            { "label": "→" },
+            { "label": "Ins" },
+            { "label": "" },
+            { "label": "", "units": 2.25 },
+            { "label": "" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 2.25 },
+            { "label": { "top": "M3", "bottom": "Ctrl+Z" } },
+            { "label": { "top": "M4", "bottom": "Ctrl+X" } },
+            { "label": { "top": "M1", "bottom": "Ctrl+C" } },
+            { "label": { "top": "M2", "bottom": "Ctrl+V" } },
+            { "label": "" },
+            { "label": "End" },
+            { "label": { "top": "Play", "bottom": "Pause" } },
+            { "label": "Prev" },
+            { "label": "Next" },
+            { "label": { "top": "|", "bottom": "\\" } },
+            { "label": "", "units": 1.75 },
+            { "label": "" },
+            { "label": "TO(2)" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 6.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "units": 0.5 },
+            { "label": { "top": "M8", "bottom": "Win+Ctrl+←" } },
+            { "label": "" },
+            { "label": { "top": "M9", "bottom": "Win+Ctrl+→" } }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "type": "keys",
+          "keys": [
+            { "label": { "top": "~", "bottom": "`" } },
+            { "label": { "top": "!", "bottom": "1" } },
+            { "label": { "top": "@", "bottom": "2" } },
+            { "label": { "top": "#", "bottom": "3" } },
+            { "label": { "top": "$", "bottom": "4" } },
+            { "label": { "top": "%", "bottom": "5" } },
+            { "label": { "top": "^", "bottom": "6" } },
+            { "label": { "top": "&", "bottom": "7" } },
+            { "label": { "top": "*", "bottom": "8" } },
+            { "label": { "top": "(", "bottom": "9" } },
+            { "label": { "top": ")", "bottom": "0" } },
+            { "label": { "top": "_", "bottom": "-" } },
+            { "label": { "top": "=", "bottom": "+" } },
+            { "label": { "top": "|", "bottom": "\\" } },
+            { "label": "Print" },
+            { "label": "Esc" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "Tab", "units": 1.5 },
+            { "label": "Q" },
+            { "label": "W" },
+            { "label": "E" },
+            { "label": "R" },
+            { "label": "T" },
+            { "label": "Y" },
+            { "label": "U" },
+            { "label": "I" },
+            { "label": "O" },
+            { "label": "P" },
+            { "label": { "top": "{", "bottom": "[" } },
+            { "label": { "top": "}", "bottom": "]" } },
+            { "label": "← Bksp", "units": 1.5 },
+            { "label": "Del" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Cmd", "units": 1.75 },
+            { "label": "A" },
+            { "label": "S" },
+            { "label": "D" },
+            { "label": "F" },
+            { "label": "G" },
+            { "label": "H" },
+            { "label": "J" },
+            { "label": "K" },
+            { "label": "L" },
+            { "label": { "top": ":", "bottom": ";" } },
+            { "label": { "top": "\"", "bottom": "'" } },
+            { "label": "Enter", "units": 2.25 },
+            { "label": "PgUp" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Shift", "units": 2.25 },
+            { "label": "Z" },
+            { "label": "X" },
+            { "label": "C" },
+            { "label": "V" },
+            { "label": "B" },
+            { "label": "N" },
+            { "label": "M" },
+            { "label": { "top": "<", "bottom": "," } },
+            { "label": { "top": ">", "bottom": "." } },
+            { "label": { "top": "?", "bottom": "/" } },
+            { "label": "R-Shift", "units": 1.75 },
+            { "label": "↑" },
+            { "label": "PgDn" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "L-Ctrl", "units": 1.25 },
+            { "label": "L-Alt", "units": 1.25 },
+            { "label": { "top": "MO(1)", "bottom": "Fn" }, "units": 1.25 },
+            { "label": "Space", "units": 6.25 },
+            { "label": "R-Alt", "units": 1.25 },
+            { "label": "R-Ctrl", "units": 1.25 },
+            { "units": 0.5 },
+            { "label": "←" },
+            { "label": "↓" },
+            { "label": "→" }
+          ]
+        }
+      ]
+    },
+    {
+      "rows": [
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "Esc" },
+            { "label": "F1" },
+            { "label": "F2" },
+            { "label": "F3" },
+            { "label": "F4" },
+            { "label": "F5" },
+            { "label": "F6" },
+            { "label": "F7" },
+            { "label": "F8" },
+            { "label": "F9" },
+            { "label": "F10" },
+            { "label": "F11" },
+            { "label": "F12" },
+            { "label": "F13" },
+            { "label": "F14" },
+            { "label": { "top": "M10", "bottom": "Cmd+Q" } }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 1.5 },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "PgUp" },
+            { "label": "↑" },
+            { "label": "PgDn" },
+            { "label": "Print" },
+            { "label": "(" },
+            { "label": ")" },
+            { "label": "Del", "units": 1.5 },
+            { "label": "" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 1.75 },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "Home" },
+            { "label": "←" },
+            { "label": "↓" },
+            { "label": "→" },
+            { "label": "Ins" },
+            { "label": "" },
+            { "label": "", "units": 2.25 },
+            { "label": "" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 2.25 },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" },
+            { "label": "End" },
+            { "label": { "top": "Play", "bottom": "Pause" } },
+            { "label": "Prev" },
+            { "label": "Next" },
+            { "label": { "top": "|", "bottom": "\\" } },
+            { "label": "", "units": 1.75 },
+            { "label": "" },
+            { "label": "TO(2)" }
+          ]
+        },
+        {
+          "type": "keys",
+          "keys": [
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 6.25 },
+            { "label": "", "units": 1.25 },
+            { "label": "", "units": 1.25 },
+            { "units": 0.5 },
+            { "label": "" },
+            { "label": "" },
+            { "label": "" }
+          ]
+        }
+      ]
+    }
+  ]
+}
