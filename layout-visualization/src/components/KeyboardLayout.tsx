@@ -11,7 +11,8 @@ export const KeyboardLayout: React.FC<KeyboardLayoutProps> = ({ layout }) => {
       style={{
         display: "flex",
         flexDirection: "column",
-        fontFamily: "OpenCherry",
+        fontFamily: "Inter",
+        fontWeight: 700,
       }}
     >
       {layout.rows.map((row, rowIndex) => (
