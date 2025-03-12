@@ -373,7 +373,7 @@
             { "label": { "top": "|", "bottom": "\\" } },
             { "label": "", "units": 1.75 },
             { "label": "" },
-            { "label": "TO(2)" }
+            { "label": "TO(0)" }
           ]
         },
         {
